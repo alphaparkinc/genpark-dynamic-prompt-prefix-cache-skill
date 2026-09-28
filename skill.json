@@ -1,0 +1,9 @@
+{
+  "name": "genpark-dynamic-prompt-prefix-cache-skill",
+  "version": "1.0.0",
+  "description": "Radix trie-based prompt prefix cache optimizer matching longest common prompt token prefixes to eliminate redundant prefill computation and reduce TTFT.",
+  "category": "Service",
+  "entrypoint": "client.py",
+  "mcp": "mcp_server.py",
+  "author": "GenPark AI"
+}
